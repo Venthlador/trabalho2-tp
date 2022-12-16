@@ -1,16 +1,17 @@
 from classes import *
 from metodos import *
+from cores import *
 
 def menu():
     Animes.limparTela()
-    print("-------- Cadastro de Animes --------")
-    print("1 - Cadastrar Anime")
-    print("2 - Editar informações")
-    print("3 - Excluir Anime")
-    print("4 - Selecionar Anime")
+    print(f"{azulclaro}-------- Cadastro de Animes --------")
+    print(f"{verde}1 - Cadastrar Anime")
+    print(f"2 - Editar informações")
+    print(f"3 - Excluir Anime")
+    print(f"4 - Selecionar Anime")
     print("5 - Listar Animes")
     print("6 - Sair")
-    print("----------------------------------")
+    print(f"{azulclaro}----------------------------------")
     opcao = int(input("Digite a opção desejada: "))
     return opcao
 
